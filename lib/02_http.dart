@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
+// 06-http 라이브러리
 void main() {
   runApp(const MyApp());
 }

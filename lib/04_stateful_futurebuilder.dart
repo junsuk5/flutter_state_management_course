@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
+// 08-StatefulWidget 에서 FutureBuilder 사용 예시
 void main() {
   runApp(const MyApp());
 }

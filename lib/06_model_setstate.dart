@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
+// 11-Model 개념과 setState를 활용한 상태관리의 기초
 void main() {
   runApp(const MyApp());
 }
