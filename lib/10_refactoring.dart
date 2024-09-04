@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
+// 15-InheritedWidget 활용을 하기 위한 코드 구조 변경
 void main() {
   runApp(MyApp());
 }
