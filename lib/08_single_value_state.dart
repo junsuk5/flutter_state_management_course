@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
+// 13-Single Value 로 상태 모으기
 void main() {
   runApp(const MyApp());
 }
