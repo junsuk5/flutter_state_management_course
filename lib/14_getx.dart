@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 
+// 20-GetX
 void main() {
   runApp(const MyApp());
 }
@@ -40,8 +41,7 @@ class HttpSampleScreen extends StatelessWidget {
         title: const Text('HttpSampleScreen'),
       ),
       body: Center(
-        child: Obx(() =>
-            Text('${model.state.value.title} : ${model.state.value.body}')),
+        child: Obx(() => Text('${model.state.value.title} : ${model.state.value.body}')),
       ),
       floatingActionButton: FloatingActionButton(onPressed: () {
         model.fetchData();
